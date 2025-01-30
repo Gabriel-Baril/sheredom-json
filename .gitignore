@@ -2,8 +2,8 @@
 build
 
 *.vcxproj
-*.vcxproj.filters
 *.vcxproj.user
+*.vcxproj.filters
 out/
 x64/
 obj/
