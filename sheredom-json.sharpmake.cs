@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class SheredomJsonProject : Project
+public class HdnCodeExternalSheredomJsonProject : Project
 {
-    public SheredomJsonProject()
+    public HdnCodeExternalSheredomJsonProject()
     {
-        Name = "sheredom-json";
+        Name = "hdn.code.external.sheredom-json";
         SourceRootPath = "";
         AddTargets(TargetUtil.DefaultTarget);
     }
