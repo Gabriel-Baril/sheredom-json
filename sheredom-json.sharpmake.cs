@@ -6,11 +6,11 @@ public class HdnCodeExternalSheredomJsonProject : Project
 {
     public HdnCodeExternalSheredomJsonProject()
     {
-        Name = "hdn.code.external.sheredom-json";
+        Name = "dm.code.external.sheredom-json";
         SourceRootPath = "";
         AddTargets(TargetUtil.DefaultTarget);
     }
-    
+
     [Configure]
     public void ConfigureAll(Project.Configuration conf, Target target)
     {
